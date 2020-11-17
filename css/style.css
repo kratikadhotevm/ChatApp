@@ -1,0 +1,98 @@
+html
+{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+body
+{  max-width: 100%;
+    max-height: 100vh;
+}
+.logo
+{
+    display: block;
+    margin: 6px auto;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+.desc h2
+{
+    text-align: center;
+    margin:0px;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.container{
+
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    width:500px;
+    height:500px;
+    background: url('/bg.png') center/contain ;
+    overflow-y: auto;
+
+}
+.message
+{
+    border: 2px solid black;
+    margin:4px 2px;
+    width:30%;
+    padding: 4px 3px;
+}
+.left
+{
+    background-color:#dcbafc;
+    clear: both;
+    float: left;
+    border-top-left-radius:  8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px ;
+  
+}
+.right
+{
+    background-color:#aa71de;
+    clear: both;
+    float: right;
+    border-top-left-radius:  8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px ;
+}
+
+#send-container
+{
+    outline: none;
+    display: block;
+   text-align: center;
+   margin:auto;
+   width: 100%;
+   max-width:1000px;
+}
+#messageInp
+{
+    outline: none;
+    width:88%;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.btn
+{
+    outline: none;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #0899da;
+}
+.btn:hover
+{
+    color: cornsilk;
+    background-color: chartreuse;
+}
